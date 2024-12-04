@@ -1,0 +1,88 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Restaurant_Project</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Add_Cat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Add_Food.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Add_Employer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Edit_Cat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Edit_Food.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageTable - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Minus_Quantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Add_Quantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Edit_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Edit_Employer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="food.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageEmployers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="emp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="orderfrm.cs" />
+    <Compile Update="UserControl6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+    <Folder Include="Resources\icons\" />
+  </ItemGroup>
+
+</Project>

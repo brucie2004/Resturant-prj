@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="add_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Add_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Detailsfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="orderfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
